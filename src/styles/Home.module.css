@@ -1,0 +1,18 @@
+.carousel {
+    border: .5px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+    width: 70%;
+    border-radius: 7px;
+    height: 201px;
+    box-shadow: rgb(0 0 0 / 9%) 0px 2px 1px, rgb(0 0 0 / 9%) 0px 3px 2px, rgb(0 0 0 / 9%) 0px 8px 4px, rgb(0 0 0 / 9%) 0px 14px 11px, rgb(0 0 0 / 9%) 0px 11px 13px;
+    margin-bottom: 20px;
+}
+
+
+
+
+/* rgb(0 0 0 / 9%) 0px 2px 1px, rgb(0 0 0 / 9%) 0px 4px 2px, rgb(0 0 0 / 9%) 0px 8px 4px, rgb(0 0 0 / 9%) 0px 14px 8px, rgb(0 0 0 / 9%) 0px 13px 16px; */

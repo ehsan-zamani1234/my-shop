@@ -1,0 +1,46 @@
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    margin-top: 70px;
+    margin-left: -33px;
+}
+
+
+.btn-link {
+    cursor: pointer;
+    color: blue;
+    font-size: 15px;
+    border-radius: 50%;
+    padding: 10px 16px;
+}
+.btn-link:hover {
+    border: 1px blue solid;
+}
+
+
+
+.previous {
+    color: blue;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.next {
+    color: blue;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.activeStyle {
+    color: white;
+    background-color: blue;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 11px 19px;
+    font-weight: bold;
+}
+

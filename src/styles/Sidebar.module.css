@@ -1,0 +1,162 @@
+/* * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+} */
+
+
+
+
+
+
+
+/* .navbar {
+    background-color: #060b24;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+   
+} */
+
+/* .navbar a {
+    color: #fff;
+    margin-left: 30px;
+} */
+
+/* .menu-bars {
+    margin-left: 2rem;
+    font-size: 2rem;
+    background-color: none;
+    color: #fff;
+} */
+
+
+.sideMenu {
+    background-color: #060b24;
+    /* background-color: #353c5/e; */
+    width: 250px;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 100px;
+    left: 2%;
+    bottom: 10px;
+    /* right:  -100%; */
+    /* left:  -100%; */
+    transition: 150ms;
+    border-radius: 7px;
+}
+
+
+
+/* .nav-menu.active {
+    left:  0;
+    right:  0;
+    transition: 350ms;
+} */
+
+.sideText {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0px 7px 0px 0px;
+    list-style: none;
+    height: 60px;
+    margin-left: -20px;
+}
+
+.sideText a {
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 18px;
+    width: 95%;
+    height: 80%;
+    display:  flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding:  0 16px;
+    border-radius: 4px;
+}
+
+.sideText a:hover {
+    background-color: #1a83ff ;
+}  
+
+.sideMenuItems {
+    width: 100%;
+    margin-top: 40px;
+}
+
+/* .navbar-toggle {
+    background-color: #060b26;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content:  start;
+    align-items: center;
+
+} */
+
+span {
+    margin-left: 16px ;
+}
+
+/* sidebar response */
+@media (max-width: 790px) {
+    .sideMenu {
+        background-color: #060b24;
+        /* background-color: #353c5/e; */
+        width: 180px;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        top: 100px;
+        left: 2%;
+        bottom: 10px;
+        /* right:  -100%; */
+        /* left:  -100%; */
+        transition: 150ms;
+        border-radius: 7px;
+    }
+    span {
+        font-size: 12px;
+        margin-left: 9px;
+    }
+    .sideMenuItems {
+        width: 100%;
+        margin-top: 40px;
+        margin-left: -12px;
+    }
+    
+}
+
+
+@media (max-width: 375px) {
+    .sideMenu {
+        background-color: #060b24;
+        width: 148px;
+        height: 77vh;
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        top: 100px;
+        left: 2%;
+        bottom: 10px;
+        /* right: -100%; */
+        /* left: -100%; */
+        transition: 150ms;
+        border-radius: 7px;
+    }
+    span {
+        font-size: 10px;
+        margin-left: 3px;
+    }
+    .sideMenuItems {
+        width: 100%;
+        margin-top: 30px;
+        margin-left: -25px;
+    }
+}

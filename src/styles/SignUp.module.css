@@ -1,0 +1,176 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #f7f7ff; */
+    min-height: 80vh;
+    margin-top: 100px;
+}
+.formContainer {
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 40px;
+    width: fit-content;
+    height: fit-content;
+    background-color: #fff;
+}
+.header {
+    text-align: left;
+    font-size: 1.8rem;
+    color: #1a73e8;
+    margin-top: -10px;
+    margin-bottom: 40px;
+}
+.formField {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    height: 75px;
+}
+.formField label {
+    text-align: left;
+    margin-bottom: 5px;
+    color: rgb(85, 85, 85);
+    font-size: 0.9rem;
+}
+.formInput {
+    width: 300px;
+    height: 30px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 0 10px;
+    transition: all 0.2s ease-in;
+}
+.uncoumpleted {
+    width: 300px;
+    height: 30px;
+    border:  1px solid red;
+    border-radius: 5px;
+    padding: 0 10px;
+    transition: all 0.2s ease-in;
+}
+.formInput:focus,
+.uncoumpleted:focus {
+    outline: none;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #1a73e8;
+}
+.formField span {
+    height: 10px;
+    width: fit-content;
+    margin-top: 5px;
+    text-align: left;
+    font-size: 0.7rem;
+    line-height: 10px;
+    color: red;
+    padding: 2px 3px;
+    border-radius: 30px;
+    background-color: rgba(255, 0, 0, 0.175);
+    position: relative;
+    left: -12px;
+}
+/* .checkBoxContainer {
+    display: flex;
+    font-size: 0.85rem;
+    flex-direction: row !important;
+    align-items: center;
+    height: 20px !important;
+    text-align: center;
+} */
+
+.formField:nth-child(7) label {
+    color: #1a73e8;
+}
+
+.checkBoxContainer {
+    display: flex;
+    font-size: 0.85rem;
+    flex-direction: row !important;
+    align-items: center;
+    height: 20px !important;
+    text-align: center;
+}
+
+input[type='checkbox'] {
+    margin-left: 16px;
+    width: 9px;
+    height: 21px;
+    border: 1px solid #1a73e8;
+    appearance: none;
+    border-radius: 5px;
+    transition: all 0.2s ease-in;
+}
+
+input[type='checkbox']:checked {
+    width: 9px;
+    height: 21px;
+    background-color: #1a73e8;
+    border-radius: 50%;
+}
+input[type='checkbox']:focus {
+    width: 9px;
+    height: 21px;
+    outline: none;
+    border: 1px solid #004aaa;
+}
+
+.formButtons {
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+    margin-top:  -10px;
+}
+.formButtons button {
+    background-color: #1a73e8;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-size: 0.875rem;
+    font-weight: 500px;
+    transition: all 0.1s ease-in;
+    cursor: pointer;
+}
+
+.formButtons button:hover {
+    background-color: #004aaa;
+}
+
+
+.formButtons a {
+    color: #1a73e8;
+    text-decoration: none;
+    transition: all 0.1s ease-in;
+    font-weight: 700;
+}
+
+.formButtons a:hover {
+    color: #004aaa; 
+}
+
+@media (max-width: 440px) {
+    .formContainer {
+        padding: 20px;
+        margin: 50px 20px;
+    }
+
+    .formContainer {
+        /* darsad dadim ke tu sixe haye paein tar nespat be arze roote safe kuchik beshe */
+        width: 90%;
+    }
+
+    .formInput {
+        width: 90%;
+    }
+
+    .uncoumpleted {
+        width: 90%;
+    }
+
+    .formField span {
+        position: relative;
+        left: -1px;
+    }
+}
